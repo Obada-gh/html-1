@@ -2,7 +2,7 @@ var name="ronaldo";
 var age=27;
 var team="juventus";
 
-var nameUserInput=prompt("what is the best football player?")
+var nameUserInput=prompt("what is the best e-sport player?")
 var ageUserInput=prompt("age?")
 var teamUserInput=prompt("Team?")
 
