@@ -29,15 +29,17 @@ var Cups = myFunction(4)
     document.getElementById("demo").innerHTML = " best player :   " + name+ " / age:  " + age + "  / Cups for the last 10 years: " + Cups;
   }
 
-  function add_img() { 
-	var img = document.createElement('img'); 
-    img.src = 'https://media.geeksforgeeks.org/wp-content/uploads/20190529122828/bs21.png'; 
-	document.getElementById("imgg").appendChild(img);
-}
 
-{
-    document.getElementById("imgg").innerHTML = add_img()
-  }
+
+  var i;
+for (i = 0; i < 5; i++) { 
+    var img = document.createElement("img");
+ 
+  img.src = "image.png";
+  var src = document.getElementById("x");
+   
+  src.appendChild(img);
+}
   
 
 
