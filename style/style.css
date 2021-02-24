@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(230, 173, 173);
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+  h2 {
+      color: rgb(137, 130, 238);
+
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  #menu-outer {
+    height: 84px;
+    background: url(images/bar-bg.jpg) repeat-x;
+  }
+  
+  .table {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+  }
+  
+  td{
+   padding: 20px;
+
+  }
+  .mainbar {
+    padding: 20px;
+  }
+  h4 {text-align: center;
+    font-size: 50px;
+    color: #35c530;   
+}
+
+  ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    }
+    ul#horizontal-list li {
+      display: inline;
+    }
