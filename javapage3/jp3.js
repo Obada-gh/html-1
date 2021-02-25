@@ -35,7 +35,7 @@ var Cups = myFunction(4)
 for (i = 0; i < 5; i++) { 
     var img = document.createElement("img");
  
-  img.src = "image.png";
+  img.src = "https://i.pinimg.com/originals/9a/ee/58/9aee5867afff669bc3462337f69345ce.jpg";
   var src = document.getElementById("x");
    
   src.appendChild(img);
