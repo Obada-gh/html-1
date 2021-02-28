@@ -1,9 +1,10 @@
-
-
+//
 let a = prompt("do you have a gaming pc ?");
 let b = prompt("do you have console ?");
 let c = prompt("do you want to make a setup");
 let d = prompt("do you want to bulid your own pc ?");
+
+
 
 alert(" 1- " + a + " 2- " +  b + " 3- " + c + " 4- " + d +  " (your 4 ans)");
 
